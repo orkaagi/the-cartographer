@@ -1,0 +1,125 @@
+body {
+    background-image: url(assets/bg-theme.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-width: 360px;
+    margin: auto;
+    padding: 1%;
+}
+
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
+    font-weight: bold !important;
+}
+
+table,
+td {
+    background-color: white;
+    border-collapse: collapse;
+    border: 1px solid white;
+}
+
+.game-field {
+    background: white;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+.validpos img {
+    background-color: green;
+    border: 1px solid green;
+    border-radius: 6px;
+    opacity: 0.3;
+}
+
+.invalidpos img {
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 6px;
+    opacity: 0.3;
+}
+
+td img {
+    border: 1px solid white;
+}
+
+.missions {
+    margin: 2%;
+}
+
+.springMission{
+    border: 5px solid rgb(105, 190, 108);
+    border-radius: 20px;
+}
+
+.summerMission{
+    border: 5px solid rgb(254, 232, 116);
+    border-radius: 20px;
+}
+
+.autumnMission{
+    border: 5px solid rgb(234, 189, 148);
+    border-radius: 20px;
+}
+
+.winterMission{
+    border: 5px solid rgb(89, 210, 236);
+    border-radius: 20px;
+}
+
+div#spring, div#summer, div#autumn, div#winter {
+    border-radius: 25px;
+    padding: 20px;
+    text-align: center;
+    color: black;
+}
+
+div#spring {
+    background-color: rgb(105, 190, 108);
+    border: 3px solid rgb(59, 142, 62);
+}
+
+div#summer {
+    background-color: rgb(254, 232, 116);
+    border: 3px solid rgb(221, 187, 8);
+}
+
+div#autumn {
+    background-color: rgb(234, 189, 148);
+    border: 3px solid rgb(108, 63, 20);
+}
+
+div#winter {
+    background-color: rgb(89, 210, 236);
+    border: 3px solid rgb(49, 144, 165);
+}
+
+.line {
+    height: 2px !important;
+    margin-top: 0 !important;
+    padding: 0 !important;
+}
+
+.btn {
+    background-color: white !important;
+    opacity: 0.8;
+    color: black !important;
+    border: none !important;
+}
+
+#end-game-btn {
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: center;
+    background-color: black !important;
+    opacity: 0.8;
+    color: white !important;
+}
+
+.next-element-parent {
+    flex-basis: 30%;
+    background: white;
+    padding: 0.8rem;
+    border-radius: 12px;
+}
