@@ -1,5 +1,5 @@
 # The Cartographer
-University assignment on web programming
+University assignment on web programming.
 
 ## Game Description
 Place the given blocks on the map and score points according to the current missions.
